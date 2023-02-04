@@ -60,10 +60,11 @@ export default function EventForm({
           />
         </Form.Field>
         <Form.Field>
-          <input
+          <textarea
             type='text'
             placeholder='Description'
             name='description'
+            rows='3'
             value={values.description}
             onChange={(e) => handleInputChange(e)}
           />
